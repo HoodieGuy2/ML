@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mad Lib</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Mad Lib</h1>
+    <hr />
+    <h3>Mad Lib Instructions</h3>
+    <p>
+      Fill out all the boxed then press the "<i>Mad Lib</i>" or "<i>Mad Lib 2</i
+      >" button
+    </p>
+      <div id="inputs">
+        <ul>
+          <li>
+            Plural <span class="scaps">Noun</span>: <input type="text" id="PNI" />
+          </li>
+          <li>
+            <span class="scaps">Adjective</span>: <input type="text" id="AI" />
+          </li>
+          <li>
+            Present Tense <span class="scaps">Verb</span>:
+            <input type="text" id="PTVI" />
+          </li>
+          <li><span class="scaps">Noun</span>: <input type="text" id="NI" /></li>
+        </ul>
+      </div>
+      <button id="ML1">Mad Lib</button><button id="ML2">Mad Lib 2</button>
+      <hr />
+      <h3>Mad Lib Results</h3>
+      <div id="MadLib">
+        <p id="output">
+        </p>
+      </div>
+    </ul>
+  </body>
+</html>
